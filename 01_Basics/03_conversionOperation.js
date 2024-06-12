@@ -35,13 +35,13 @@ let negValue = -value
 // console.log(2/2);
 // console.log(2%2);
 
-let str1 = "hello"
-let str2 = " Bhayaa"
+// let str1 = "hello"
+// let str2 = " Bhayaa"
 
-let str3 = str1+str2
-console.log(str3);
+// let str3 = str1+str2
+// console.log(str3);
 
-console.log("1"+2);//ans 12
-console.log("1"+2+2); //ans 2
-console.log( 1 + 2 + "2" ); // ans 32
+// console.log("1"+2);//ans 12
+// console.log("1"+2+2); //ans 2
+// console.log( 1 + 2 + "2" ); // ans 32
 //https://tc39.es/ecma262/multipage/abstract-operations.html
