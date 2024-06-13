@@ -25,3 +25,38 @@
 // } //return type: function
 
 // console.log(typeof myFunction);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Memory of 2 types:
+// Stack (Primitive)
+// Heap (Non-primitive)
+
+// All the premitive data types are stored in stack memory which create a copy when you store same value in another variable.
+// All the non primitive data types are stored in heap memory which create a reference to the same value for another variable.
+// when you change the value coppies by stack, original value is not chaged.
+// when you change the value coppied by heap, original value is changed.
+
+let myName = "Name"
+
+
+let anotherName = myName
+anotherName = "New Name"
+
+console.log(anotherName)
+console.log(myName);
+
+let user = {
+    email: "user@example.com",
+    upiID: "upiID",
+    password: "123",
+    age: 22,
+    address: {
+        city: "Pune",
+        state: "Maharashtra",
+    }
+}
+
+console.table(user)
+
